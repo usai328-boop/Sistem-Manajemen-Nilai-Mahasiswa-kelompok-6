@@ -1,0 +1,16 @@
+Program ini dibuat menggunakan konsep OOP (Object-Oriented Programming) dengan menerapkan encapsulation, yaitu semua data mahasiswa disimpan dalam atribut private menggunakan tanda __, sehingga tidak bisa diakses langsung dari luar class.
+Class Mahasiswa digunakan untuk menyimpan data seperti nama, NIM, nilai tugas, nilai UTS, nilai UAS, dan nilai akhir. Nilai akhir dihitung berdasarkan ketentuan:
+
+Tugas = 30%
+UTS = 30%
+UAS = 40%
+
+Program juga memiliki beberapa method penting seperti:
+
+set_nilai() → untuk mengisi nilai mahasiswa
+hitung_nilai_akhir() → untuk menghitung nilai akhir
+get_nilai_akhir() → untuk mengambil nilai akhir
+get_grade() → untuk menentukan grade (A, B, C, D)
+update_nilai() → untuk mengubah salah satu nilai
+is_lulus() → untuk mengecek status lulus atau tidak
+info() → untuk menampilkan seluruh data mahasiswa

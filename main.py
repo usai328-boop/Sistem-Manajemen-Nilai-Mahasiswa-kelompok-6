@@ -89,7 +89,6 @@ class Mahasiswa :
     def mengurutkan_mahasiswa(self) :
         return sorted(self.__data, key=lambda nilai_akhir:nilai_akhir["nilai_akhir"],reverse=True)
 
-# CLI
 nama_mahasiswa = []
 nim_mahasiswa = []
 tugas_mahasiswa = []
@@ -110,7 +109,7 @@ while True :
     print("Ketik 5, untuk melihat data mahasiswa berdasarkan nilai akhir")
     print("Ketik exit, untuk keluar dari sistem\n")
     
-    inputan = input("Masukkan sesuatu : ").lower()
+    inputan = input("Masukkan: ").lower()
     
     if inputan == 'exit' :
         print("\nAnda keluar dari sistem")
